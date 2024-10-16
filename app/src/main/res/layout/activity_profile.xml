@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+     <TextView
+         android:id="@+id/tvProfile"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Profile Activity"></TextView>
+     <Button
+         android:id="@+id/btnCallMe"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Call Me"></Button>
+     <Button
+         android:id="@+id/btnOpenWeb"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Open Web"></Button>
+     <Button
+         android:id="@+id/btnOpenMap"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Open Map"></Button>
+     <Button
+         android:id="@+id/btnLogOut"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/black"
+         android:text="Log Out"></Button>
+
+</LinearLayout>
